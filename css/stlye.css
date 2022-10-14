@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.style{
+	width: 851;
+	height: 768;
+	background-image: url(../img/bg_yellow.svg);
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+.wrap{
+	margin: 0; 
+	width: 1085px;
+	
+	
+}
+.style{
+	width: 851;
+	height: 768;
+	background-image: url(../img/bg_yellow.svg);
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+	
+
+.header{
+	margin-top: 30.3px;
+	margin-bottom: 34.67px;
+	margin-left: 142px;
+}
+
+	
+
+.section1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 158px;
+	margin-left: 141px;
+	margin-right: 140px;
+	margin-bottom: 157px;
+}
+
+.section_item h2{
+	margin-bottom: 8px;
+	text-align: left;
+font: normal normal bold 18px/26px Noto Sans TC;
+letter-spacing: 0px;
+color: #56C4C5;
+opacity: 1;
+
+}	
+.section_item h1{
+	width: 432px;
+	text-align: left;
+font: normal normal bold 48px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+opacity: 1;
+}	
+.section_item p{
+	margin-top: 16px;
+	width: 451;
+	text-align: left;
+font: normal normal normal 20px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
+
+.topic h1{
+	margin-bottom: 48px;
+	text-align: center;
+	font: normal normal bold 32px/46px Noto Sans TC;
+	letter-spacing: 0px;
+	color: #221E1F;
+	opacity: 1;}
+	
+
+
+.section2{
+	display: flex;
+    justify-content: space-around;
+}	
+
+
+
+.section2 h3{text-align: center;
+	font: normal normal bold 24px/35px Noto Sans TC;
+	letter-spacing: 0px;
+	color: #221E1F;
+	opacity: 1;}
+
+.section2 p{text-align: center;
+	font: normal normal normal 16px/24px Noto Sans TC;
+	letter-spacing: 0px;
+	color: #747474;
+	opacity: 1;}
+
+.footer{
+	background: #F5F5F5;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
