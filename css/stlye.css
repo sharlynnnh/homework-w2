@@ -49,7 +49,7 @@ table {
 	background-position-x: right;
 }
 .wrap{
-	margin: 0; 
+	margin: 0 auto;
 	width: 1085px;
 	
 	
@@ -64,7 +64,7 @@ table {
 	
 
 .header{
-	margin-top: 30.3px;
+	padding-top: 30.3px;
 	margin-bottom: 34.67px;
 	margin-left: 142px;
 }
@@ -129,7 +129,7 @@ color: #221E1F;
 	color: #221E1F;
 	opacity: 1;}
 
-.section2 p{text-align: center;
+.section2 {text-align: center;
 	font: normal normal normal 16px/24px Noto Sans TC;
 	letter-spacing: 0px;
 	color: #747474;
@@ -156,17 +156,14 @@ color: #221E1F;
 	justify-content: space-around;
 }
 
-.menber1{
-	margin-left: 139px;
-	}
-	
+
 	.menber1 h4{text-align: center;
 		font: normal normal bold 16px/24px Noto Sans TC;
 		letter-spacing: 0px;
 		color: #56C4C5;
 		opacity: 1;}
 	
-	.menber1 p{
+	.menber1 {
 		text-align: center;
 font: normal normal normal 16px/24px Noto Sans TC;
 letter-spacing: 0px;
@@ -184,7 +181,119 @@ opacity: 1;
 		color: #221E1F;
 		opacity: 1;}
 
+.section4{
+	margin: 100px;
+	display:flex;
+	justify-content: space-around;
+}
+.leftside{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+.leftside h4{
+	margin-top: 24px;
+	margin-bottom: 16px;
+	text-align: left;
+font: normal normal bold 18px/26px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
+.leftside p{
+	text-align: left;
+font: normal normal normal 16px/24px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
+.card{
+	width: 25%
+	 no-repeat padding-box;
+box-shadow: 0px 2px 10px #00000014;
+border-radius: 12px;
+}
+.rightside{
+	width:50%
+}
 
+.rightside h1{
+	text-align: left;
+font: normal normal bold 32px/46px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
+
+.rightside p{
+	text-align: left;
+font: normal normal normal 18px/26px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+opacity: 1;
+}
+.section5{
+	margin-top: 100px;
+	margin-bottom: 48px;
+	display: flex;
+	justify-content: space-around;
+}
+.topic5 h1{
+	text-align: center;
+font: normal normal bold 32px/46px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
+.platform{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+	width: 352px;
+}
+
+.platform img{
+	margin-top: -48px;
+	margin-left: 36px;
+}
+.platform p{
+	text-align: left;
+font: normal normal normal 16px/24px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+margin-bottom: 24px;
+width: 288px;
+margin-left: 36px;
+}
+.platform h4{
+	text-align: left;
+font: normal normal bold 16px/24px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+margin-left: 36px;
+}
+.platform h5{
+	text-align: left;
+font: normal normal normal 16px/24px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+margin-top: 8px;
+margin-bottom: 24px;
+width: 288px;
+margin-left: 36px;
+}
+
+.secion6{
+	width: 1366;
+	height: 503;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	text-align: center;
+
+}
+.text h1{
+	text-align: center;
+	font: normal normal bold 32px/46px Noto Sans TC;
+letter-spacing: 0px;
+color: #221E1F;
+}
 
 .footer{
 	background: #F5F5F5;
