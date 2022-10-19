@@ -268,7 +268,8 @@ color: #221E1F;
 margin-bottom: 24px;
 width: 288px;
 margin-left: 36px;
-}
+border:1px solid #DDDDDD
+} 
 .platform h4{
 	text-align: left;
 font: normal normal bold 16px/24px Noto Sans TC;
@@ -287,13 +288,13 @@ width: 288px;
 margin-left: 36px;
 }
 
-.style6{
-	width: 1366;
-	height: 503;
+.section6{
+	width: 1366px;
+	height: 503px;
 	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-position-x: bottom;
-	
+	background-size: cover;
 }
 
 .text h1{
