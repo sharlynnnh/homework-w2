@@ -51,8 +51,6 @@ table {
 .wrap{
 	margin: 0 auto;
 	width: 1085px;
-	
-	
 }
 .style{
 	width: 851;
@@ -66,6 +64,7 @@ table {
 .header{
 	padding-top: 30.3px;
 	margin-bottom: 34.67px;
+	
 }
 
 	
@@ -74,12 +73,13 @@ table {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 158px;
-	margin-left: 141px;
+	margin-left: 193px;
 	margin-right: 140px;
 	margin-bottom: 157px;
 }
 .media{
 	width: 244px;
+	
 }
 
 .section_item h2{
@@ -121,6 +121,7 @@ color: #221E1F;
 .section2{
 	display: flex;
     justify-content: space-around;
+	width: 1085px;
 }	
 
 
@@ -157,17 +158,19 @@ color: #221E1F;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	margin: 0 auto;
 	
 }
 
 
-	.menber1 h4{text-align: center;
+	.menber h4{text-align: center;
 		font: normal normal bold 16px/24px Noto Sans TC;
 		letter-spacing: 0px;
 		color: #56C4C5;
 		opacity: 1;}
 	
-	.menber1 {
+	.menber {
+		
 		text-align: center;
 font: normal normal normal 16px/24px Noto Sans TC;
 letter-spacing: 0px;
@@ -194,30 +197,35 @@ opacity: 1;
 .leftside{
 	width: 50%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	
+	margin-right: 64px;
 	
 }
 .leftside h4{
 	margin-top: 24px;
 	margin-bottom: 16px;
 	text-align: left;
-font: normal normal bold 18px/26px Noto Sans TC;
-letter-spacing: 0px;
-color: #221E1F;
+	font: normal normal bold 18px/26px Noto Sans TC;
+	letter-spacing: 0px;
+	color: #221E1F;
 }
 .leftside p{
 	text-align: left;
-font: normal normal normal 16px/24px Noto Sans TC;
-letter-spacing: 0px;
-color: #221E1F;
+	font: normal normal normal 16px/24px Noto Sans TC;
+	letter-spacing: 0px;
+	color: #221E1F;
+}
+.column{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
 }
 .card{
 	width: 50%;
-	 
-box-shadow: 0px 2px 10px #00000014;
-border-radius: 12px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
 }
 .rightside{
 	width:50%
@@ -241,7 +249,9 @@ opacity: 1;
 	margin-top: 100px;
 	margin-bottom: 48px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	
+
 }
 .topic5 h1{
 	text-align: center;
@@ -268,7 +278,7 @@ color: #221E1F;
 margin-bottom: 24px;
 width: 288px;
 margin-left: 36px;
-border:1px solid #DDDDDD
+
 } 
 .platform h4{
 	text-align: left;
@@ -289,20 +299,22 @@ margin-left: 36px;
 }
 
 .section6{
-	width: 1366px;
 	height: 503px;
 	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-position-x: bottom;
-	background-size: cover;
+	background-size: contain;
+	margin-top: 154px;
 }
-
-.text h1{
+.box{
 	
+}
+.text h1{
 	text-align: center;
 	font: normal normal bold 32px/46px Noto Sans TC;
-letter-spacing: 0px;
-color: #221E1F;
+	letter-spacing: 0px;
+	color: #221E1F;
+	margin-top: 134px;
 }
 
 .footer{
